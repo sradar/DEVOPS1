@@ -1,2 +1,2 @@
 print("cokolwiek - drugi uzytkownik")
-# kolejny ko popsutyy
+# kolejny ko popsuty
