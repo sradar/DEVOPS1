@@ -1,5 +1,5 @@
 *.html
 /assets
 /pytest_cache
-/tests/__pycache__
+PROJEKT1/tests/__pycache__
 *.pyc
