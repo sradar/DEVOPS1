@@ -1,0 +1,18 @@
+pipeline {
+    agent { label 't1' }
+
+    stages {
+        stage('git') {
+            steps {
+                git branch: 'main'
+                url: 'https://github.com/sradar/DEVOPS1.git'
+            }
+        }
+        
+        stage('Where is python') {
+            steps {
+                sh pytest
+            }
+        }
+    }
+}
