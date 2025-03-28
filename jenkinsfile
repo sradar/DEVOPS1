@@ -9,7 +9,7 @@ pipeline {
             }
         }
         
-        stage('Where is python') {
+        stage('Run pytest') {
             steps {
                 sh 'pytest'
             }
